@@ -10,11 +10,12 @@ Computer *Tournament::run(Computer *competetors[8])
     Computer *b;
     Computer *c;
     Computer *d;
+    char ch;
     for (int i = 0; i < 8; i += 2)
     {
         if (i == 0)
         {
-            char ch = r->refGame(competetors[i], competetors[i + 1]);
+            ch = r->refGame(competetors[i], competetors[i + 1]);
             if (ch == 'W')
             {
                 a = competetors[i];
@@ -30,7 +31,7 @@ Computer *Tournament::run(Computer *competetors[8])
         }
         else if (i == 2)
         {
-            char ch = r->refGame(competetors[i], competetors[i + 1]);
+            ch = r->refGame(competetors[i], competetors[i + 1]);
             if (ch == 'W')
             {
                 b = competetors[i];
@@ -46,7 +47,7 @@ Computer *Tournament::run(Computer *competetors[8])
         }
         else if (i == 4)
         {
-            char ch = r->refGame(competetors[i], competetors[i + 1]);
+            ch = r->refGame(competetors[i], competetors[i + 1]);
             if (ch == 'W')
             {
                 c = competetors[i];
@@ -62,7 +63,7 @@ Computer *Tournament::run(Computer *competetors[8])
         }
         else
         {
-            char ch = r->refGame(competetors[i], competetors[i + 1]);
+            ch = r->refGame(competetors[i], competetors[i + 1]);
             if (ch == 'W')
             {
                 d = competetors[i];
@@ -103,7 +104,7 @@ Computer *Tournament::run(Computer *competetors[8])
     {
         b = c;
     }
-    char ch = r->refGame(a, b);
+    ch = r->refGame(a, b);
     if (ch == 'W')
     {
         a = a;
