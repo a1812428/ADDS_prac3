@@ -6,11 +6,11 @@ using namespace std;
 Computer *Tournament::run(Computer *competetors[8])
 {
     Referee *r = new Referee();
-    Computer *a;
-    Computer *b;
-    Computer *c;
-    Computer *d;
-    char ch;
+    Computer *a = NULL;
+    Computer *b = NULL;
+    Computer *c = NULL;
+    Computer *d = NULL;
+    char ch = 'A';
     for (int i = 0; i < 8; i += 2)
     {
         if (i == 0)
