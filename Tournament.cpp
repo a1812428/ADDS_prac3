@@ -78,7 +78,7 @@ Computer *Tournament::run(Computer *competetors[8])
             }
         }
     }
-    char ch = r->refGame(a, b);
+    ch = r->refGame(a, b);
     if (ch == 'W')
     {
         a = a;
