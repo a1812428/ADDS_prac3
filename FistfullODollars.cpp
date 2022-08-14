@@ -10,7 +10,7 @@ FistfullODollars::FistfullODollars() : Player()
 char FistfullODollars::makeMove()
 {
     char moves[3] = {'R', 'P', 'P'};
-    this->move = moves[count];
+    this->move = moves[this->count];
     this->count++;
     return this->move;
 }

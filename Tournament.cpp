@@ -61,7 +61,7 @@ Player *Tournament::run(std::array<Player *, 8> competetors)
                 c = competetors[i];
             }
         }
-        else
+        else if(i==6)
         {
             ch = r->refGame(competetors[i], competetors[i + 1]);
             if (ch == 'W')
