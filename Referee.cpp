@@ -6,7 +6,7 @@ Referee::Referee()
 {
 }
 
-char Referee::refGame(Computer *player1, Computer *player2)
+char Referee::refGame(Player *player1, Player *player2)
 {
     char ans;
     cin >> player1->move;

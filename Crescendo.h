@@ -1,12 +1,12 @@
-#include "Computer.h"
+#include "Player.h"
 #ifndef CRESCENDO_H
 #define CRESCENDO_H
 
-class Crescendo : public Computer
+class Crescendo : public Player
 {
 public:
-    int count = 0;
     Crescendo();
+    char makeMove();
 };
 
 #endif

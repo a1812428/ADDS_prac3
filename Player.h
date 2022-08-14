@@ -1,12 +1,13 @@
-#include "Computer.h"
 #ifndef PLAYER_H
 #define PLAYER_H
 
-class Player : public Computer
+class Player
 {
 public:
-    int count = 0;
+    int count;
+    char move;
     Player();
+    char makeMove();
 };
 
 #endif

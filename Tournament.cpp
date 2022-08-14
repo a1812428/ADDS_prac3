@@ -3,13 +3,13 @@
 #include <iostream>
 using namespace std;
 
-Computer *Tournament::run(Computer *competetors[8])
+Player *Tournament::run(Player *competetors[8])
 {
     Referee *r = new Referee();
-    Computer *a = NULL;
-    Computer *b = NULL;
-    Computer *c = NULL;
-    Computer *d = NULL;
+    Player *a = NULL;
+    Player *b = NULL;
+    Player *c = NULL;
+    Player *d = NULL;
     char ch = 'A';
     for (int i = 0; i < 8; i += 2)
     {

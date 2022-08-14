@@ -1,4 +1,4 @@
-#include "Computer.h"
+#include "Player.h"
 
 #ifndef REFEREE_H
 #define REFEREE_H
@@ -7,7 +7,7 @@ class Referee
 {
 public:
     Referee();
-    char refGame(Computer *player1, Computer *player2);
+    char refGame(Player *player1, Player *player2);
 };
 
 #endif

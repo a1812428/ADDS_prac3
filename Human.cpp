@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-Human::Human()
+Human::Human() : Player()
 {
 }
 

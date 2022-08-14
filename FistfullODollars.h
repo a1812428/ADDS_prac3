@@ -1,12 +1,12 @@
-#include "Computer.h"
+#include "Player.h"
 #ifndef FISTFULLODOLLARS_H
 #define FISTFULLODOLLARS_H
 
-class FistfullODollars : public Computer
+class FistfullODollars : public Player
 {
 public:
-    int count = 0;
     FistfullODollars();
+    char makeMove();
 };
 
 #endif

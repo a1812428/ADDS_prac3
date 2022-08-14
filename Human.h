@@ -1,10 +1,10 @@
+#include "Player.h"
 #ifndef HUMAN_H
 #define HUMAN_H
 
-class Human 
+class Human : public Player
 {
 public:
-    char move;
     Human();
     char makeMove();
 };

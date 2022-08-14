@@ -1,11 +1,12 @@
-#include "Computer.h"
+#include "Player.h"
 #ifndef RANDOMCOMPUTER_H
 #define RANDOMCOMPUTER_H
 
-class RandomComputer : public Computer
+class RandomComputer : public Player
 {
 public:
     RandomComputer();
+    char makeMove();
 };
 
 #endif

@@ -1,10 +1,10 @@
+#include "Player.h"
 #ifndef COMPUTER_H
 #define COMPUTER_H
 
-class Computer
+class Computer : public Player
 {
 public:
-    char move;
     Computer();
     char makeMove();
 };
