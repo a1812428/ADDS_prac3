@@ -5,6 +5,7 @@ using namespace std;
 PaperDoll::PaperDoll() : Player()
 {
     this->count = 0;
+    this->move = 'P';
 }
 
 char PaperDoll::makeMove()

@@ -9,11 +9,11 @@ Referee::Referee()
 char Referee::refGame(Player *player1, Player *player2)
 {
     char ans;
-    if ((player1->makeMove() == 'R' && player2->makeMove() == 'R') || (player1->makeMove() == 'S' && player2->makeMove() == 'S') || (player1->makeMove() == 'P' && player2->makeMove() == 'P'))
+    if ((player1->move == 'R' && player2->move == 'R') || (player1->move == 'S' && player2->move == 'S') || (player1->move == 'P' && player2->move == 'P'))
     {
         ans = 'T';
     }
-    else if ((player1->makeMove() == 'R' && player2->makeMove() == 'S') || (player1->makeMove() == 'S' && player2->makeMove() == 'P') || (player1->makeMove() == 'P' && player2->makeMove() == 'R'))
+    else if ((player1->move == 'R' && player2->move == 'S') || (player1->move == 'S' && player2->move == 'P') || (player1->move == 'P' && player2->move == 'R'))
     {
         ans = 'W';
     }

@@ -5,6 +5,7 @@ using namespace std;
 FistfullODollars::FistfullODollars() : Player()
 {
     this->count = 0;
+    this->move = 'R';
 }
 
 char FistfullODollars::makeMove()

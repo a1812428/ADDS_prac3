@@ -6,6 +6,7 @@ using namespace std;
 Crescendo::Crescendo() : Player()
 {
     this->count = 0;
+    this->move = 'P';
 }
 
 char Crescendo::makeMove(){
