@@ -3,7 +3,8 @@
 #include <iostream>
 using namespace std;
 
-Player *Tournament::run(Player *competetors[8])
+template <std::size_t N>
+Player *Tournament::run(std::array<Player *, N> competetors[8])
 {
     Referee *r = new Referee();
     Player *a = NULL;
