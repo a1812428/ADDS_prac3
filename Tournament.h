@@ -6,8 +6,7 @@
 class Tournament
 {
 public:
-    template <std::size_t N>
-    Player *run(std::array<Player *, N> competetors[]);
+    Player *run(std::array<Player *, 8> competetors);
 };
 
 #endif
